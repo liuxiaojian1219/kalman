@@ -42,10 +42,10 @@ class OrientationMeasurementModel : public Kalman::LinearizedMeasurementModel<St
 {
 public:
     //! State type shortcut definition
-    typedef KalmanExamples::Robot1::State<T> S;
+    typedef State<T> S;
     
     //! Measurement type shortcut definition
-    typedef  KalmanExamples::Robot1::OrientationMeasurement<T> M;
+    typedef OrientationMeasurement<T> M;
     
     OrientationMeasurementModel()
     {

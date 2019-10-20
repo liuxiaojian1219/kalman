@@ -51,10 +51,10 @@ class PositionMeasurementModel : public Kalman::LinearizedMeasurementModel<State
 {
 public:
     //! State type shortcut definition
-    typedef  KalmanExamples::Robot1::State<T> S;
+    typedef State<T> S;
     
     //! Measurement type shortcut definition
-    typedef  KalmanExamples::Robot1::PositionMeasurement<T> M;
+    typedef PositionMeasurement<T> M;
     
     /**
      * @brief Constructor
